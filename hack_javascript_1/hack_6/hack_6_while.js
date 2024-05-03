@@ -8,6 +8,13 @@
  */
 let str = "fooziman";
 let result = [];
+let contador = 0;
+
+while (contador < str.length){
+    result.push(str.charAt(contador));
+    contador++;
+};
+console.log(result);
 
 
 //export result
